@@ -1,0 +1,73 @@
+/* Start Global Rules */
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+/* end Global Rules */
+/*start calulator */
+body{
+   background-image: url(/images/1.jpg);
+   background-size: cover;
+}
+.container{
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.main{
+   width: 350px;
+   height: 600px;
+   background-color: #f6f6f8;
+   position: absolute;
+   top: 50%;
+   left : 50%;
+   transform: translate(-50% , -50%);
+   border: solid #8ca6fb 5px;
+   border-radius: 30px;
+}
+h1{
+   font-size: 15px;
+   color: #808a96;
+   text-align: center;
+   margin: 30px 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#result{
+   width: 290px;
+   height: 190px;
+   margin-bottom: 30px;
+   background: #bde2c0;
+   border-radius: 10px;
+   font-size: 18px;
+   text-align: center;
+}
+.second button{
+   width : 69px;
+   height: 50px;
+   background: #b1b5f5;
+   border-radius: 10px;
+   margin-bottom: 4px;
+   font-size: 18px;
+}
+.equal{
+   width: 142px !important;
+   background-color: #f3c092 !important;
+}
+
+.math{
+   background-color: #ecaeb4 !important;
+}
+ /*end calulator */ 
+ /* start footer */
+footer{
+   position: absolute;
+   bottom: 20px;
+   font-family: 'Kalam', cursive;
+   color: #f6f6f8;
+   left: 50%;
+   transform: translateX(-50%)
+}
+  /* end footer */
+
